@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scroll"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/pleasework"
+    >
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ECOSL NEWS"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/i1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/i2"
+                android:scaleType="centerCrop"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/i3"
+                android:layout_marginRight="2dp"
+                android:scaleType="centerCrop"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/i4"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/i1"
+                android:layout_marginRight="2dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

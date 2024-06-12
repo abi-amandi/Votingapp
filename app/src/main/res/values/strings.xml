@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ECOSL</string>
+    <string name="ECOSL">ECOSL</string>
+    <string name="for_forget_password_and_other_profile_info_contact">For forget password and other profile info, Contact</string>
+    <string name="_0223344556">0223344556</string>
+    <string name="_9411435789">+9411435789</string>
+    <string name="_2002690083_ecosl_lk">2002690083@ECOSL.lk</string>
+    <string name="login">Login</string>
+    <string name="time_reaming_for_voting_20_hours_35_minutes">Time reaming for voting 20 hours : 35 minutes</string>
+    <string name="vote_only_for_one_candidate_by_clicking_on_it">vote only for one candidate by clicking on it.</string>
+    <string name="_1_sajith_premadshingh">1. Sajith Premadshingh</string>
+    <string name="_2_anura_kirthisinghage">2. Anura Kirthisinghage</string>
+</resources>
